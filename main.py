@@ -22,6 +22,10 @@ Please select an option:
 
         choice = input("Enter your choice (1-6): ")
 
+        ### REQ-03: No choice or setter available to update patient ID, thus
+        ### the system shall ensure data integrity by preventing the modification of a
+        ### Patient ID once it has been assigned.
+
         match(choice):
 
             case '1':
